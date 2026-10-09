@@ -1,0 +1,40 @@
+/*
+Theme Name: Capital Transportation Company (CTC)
+Theme URI: https://capitaltransportco.com/
+Author: CTC Team
+Author URI: https://capitaltransportco.com/
+Description: Modern vehicle rental and transportation theme for Capital Transportation Company (CTC) Somalia.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ctc-transport
+Tags: transportation, vehicle-rental, logistics, one-page, clean, responsive
+*/
+
+:root {
+    --ctc-navy: #0f2a4a;
+    --ctc-navy-dark: #071627;
+    --ctc-orange: #f26522;
+    --ctc-orange-hover: #ea580c;
+    --ctc-slate: #f8fafc;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #1e293b;
+    background-color: #ffffff;
+}
+
+.card-shadow {
+    box-shadow: 0 10px 30px -5px rgba(15, 42, 74, 0.06);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-shadow:hover {
+    box-shadow: 0 20px 35px -10px rgba(15, 42, 74, 0.14);
+    transform: translateY(-3px);
+}
